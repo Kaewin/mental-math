@@ -95,7 +95,7 @@ def two_digit_subtraction():
     print("  ", 
           number_1, 
           "\n", 
-          "+",
+          "-",
           number_2, 
           "\n", 
           "-----")
@@ -137,7 +137,7 @@ def three_digit_subtraction():
     print("  ", 
           number_1, 
           "\n", 
-          "+",
+          "-",
           number_2, 
           "\n", 
           "-----")
