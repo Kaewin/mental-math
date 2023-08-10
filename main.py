@@ -6,7 +6,9 @@ def two_digit_addition():
     print("How many practice problems would you like?")
     iterations = int(input())
 
-        while counter != iterations:
+    while counter != iterations:
+
+        print("Currently on problem: ", counter")
 
         status = False
 
@@ -56,6 +58,8 @@ def three_digit_addition():
     iterations = int(input())
 
     while counter != iterations:
+    
+        print("Currently on problem: ", counter")
 
         status = False
 
@@ -105,6 +109,9 @@ def two_digit_subtraction():
     iterations = int(input())
 
     while counter != iterations:
+    
+        print("Currently on problem: ", counter")
+
         status = False
 
         number_1 = random.randint(10, 99)
@@ -153,7 +160,9 @@ def three_digit_subtraction():
     iterations = int(input())
 
     while counter != iterations:
-
+    
+        print("Currently on problem: ", counter")
+              
         status = False
 
         number_1 = random.randint(100, 999)
@@ -213,32 +222,20 @@ def menu():
     print()
 
     if selection == 1:
+    
         two_digit_addition()
 
     if selection == 2:
-        print("How many practice problems would you like?")
-        iterations = int(input())
-        print()
 
-        while counter != iterations:
-            counter += 1
-            three_digit_addition()        
+        three_digit_addition() 
+
     if selection == 3:
-        print("How many practice problems would you like?")
-        iterations = int(input())
-        print()
 
-        while counter != iterations:
-            counter += 1
-            two_digit_subtraction() 
+        two_digit_subtraction() 
+
     if selection == 4:
-        print("How many practice problems would you like?")
-        iterations = int(input())
-        print()
 
-        while counter != iterations:
-            counter += 1
-            three_digit_subtraction() 
+        three_digit_subtraction() 
 
 def main():
 
