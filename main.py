@@ -2,7 +2,7 @@ import random
 
 def two_digit_addition():
 
-    counter = 0
+    counter = 1
     print("How many practice problems would you like?")
     iterations = int(input())
 
@@ -53,7 +53,7 @@ def two_digit_addition():
 
 def three_digit_addition():
 
-    counter = 0
+    counter = 1
     print("How many practice problems would you like?")
     iterations = int(input())
 
@@ -104,7 +104,7 @@ def three_digit_addition():
 
 def two_digit_subtraction():
 
-    counter = 0
+    counter = 1
     print("How many practice problems would you like?")
     iterations = int(input())
 
@@ -155,7 +155,7 @@ def two_digit_subtraction():
 
 def three_digit_subtraction():
 
-    counter = 0
+    counter = 1
     print("How many practice problems would you like?")
     iterations = int(input())
 
