@@ -8,7 +8,7 @@ def two_digit_addition():
 
     while counter != iterations:
 
-        print("Currently on problem: ", counter")
+        print("Currently on problem: ", counter)
 
         status = False
 
