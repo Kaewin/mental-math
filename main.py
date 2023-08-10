@@ -214,7 +214,7 @@ def menu():
 
     selection = 0
 
-    while selection != 5
+    while selection != 5:
 
         print("\nWelcome to the mental math trainer.")
         print("What would you like to do?\n")
