@@ -59,7 +59,7 @@ def three_digit_addition():
 
     while counter != iterations:
     
-        print("Currently on problem: ", counter")
+        print("Currently on problem: ", counter)
 
         status = False
 
@@ -110,7 +110,7 @@ def two_digit_subtraction():
 
     while counter != iterations:
     
-        print("Currently on problem: ", counter")
+        print("Currently on problem: ", counter)
 
         status = False
 
@@ -161,7 +161,7 @@ def three_digit_subtraction():
 
     while counter != iterations:
     
-        print("Currently on problem: ", counter")
+        print("Currently on problem: ", counter)
               
         status = False
 
