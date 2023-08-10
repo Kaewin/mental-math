@@ -1,171 +1,199 @@
 import random
 
-
 def two_digit_addition():
 
-    status = False
+    counter = 0
+    print("How many practice problems would you like?")
+    iterations = int(input())
 
-    number_1 = random.randint(10, 99)
-    number_2 = random.randint(10, 99)
+        while counter != iterations:
 
-    sum = number_1 + number_2
+        status = False
 
-    print("  ", 
-          number_1, 
-          "\n", 
-          "+",
-          number_2, 
-          "\n", 
-          "-----")
-    
-    val = input("Enter your answer: ")
-    val = int(val)    
+        number_1 = random.randint(10, 99)
+        number_2 = random.randint(10, 99)
 
-    while (status == False):
+        sum = number_1 + number_2
 
-        if val == sum:
-            print("Correct")
-            print()
-            status = True
-        if val != sum:
-            print("Try again\n")
-            print("  ", 
-                number_1, 
-                "\n", 
-                "+",
-                number_2, 
-                "\n", 
-                "-----")
-            
-            val = input("Enter your answer: ")
-            val = int(val)  
+        print("  ", 
+            number_1, 
+            "\n", 
+            "+",
+            number_2, 
+            "\n", 
+            "-----")
+        
+        val = input("Enter your answer: ")
+        val = int(val)    
+
+        while (status == False):
+
+            if val == sum:
+                print("Correct")
+                print()
+                status = True
+            if val != sum:
+                print("Try again\n")
+                print("  ", 
+                    number_1, 
+                    "\n", 
+                    "+",
+                    number_2, 
+                    "\n", 
+                    "-----")
+                
+                val = input("Enter your answer: ")
+                val = int(val)  
+
+        counter += 1
 
     return
-
 
 def three_digit_addition():
-    status = False
 
-    number_1 = random.randint(100, 999)
-    number_2 = random.randint(100, 999)
+    counter = 0
+    print("How many practice problems would you like?")
+    iterations = int(input())
 
-    sum = number_1 + number_2
+    while counter != iterations:
 
-    print("  ", 
-          number_1, 
-          "\n", 
-          "+",
-          number_2, 
-          "\n", 
-          "-----")
-    
-    val = input("Enter your answer: ")
-    val = int(val)    
+        status = False
 
-    while (status == False):
+        number_1 = random.randint(100, 999)
+        number_2 = random.randint(100, 999)
 
-        if val == sum:
-            print("Correct")
-            print()
-            status = True
-        if val != sum:
-            print("Try again\n")
-            print("  ", 
-                number_1, 
-                "\n", 
-                "+",
-                number_2, 
-                "\n", 
-                "-----")
-            
-            val = input("Enter your answer: ")
-            val = int(val)  
+        sum = number_1 + number_2
+
+        print("  ", 
+            number_1, 
+            "\n", 
+            "+",
+            number_2, 
+            "\n", 
+            "-----")
+        
+        val = input("Enter your answer: ")
+        val = int(val)    
+
+        while (status == False):
+
+            if val == sum:
+                print("Correct")
+                print()
+                status = True
+            if val != sum:
+                print("Try again\n")
+                print("  ", 
+                    number_1, 
+                    "\n", 
+                    "+",
+                    number_2, 
+                    "\n", 
+                    "-----")
+                
+                val = input("Enter your answer: ")
+                val = int(val)  
+
+        counter += 1
 
     return
-
 
 def two_digit_subtraction():
-    status = False
 
-    number_1 = random.randint(10, 99)
-    number_2 = random.randint(10, 99)
+    counter = 0
+    print("How many practice problems would you like?")
+    iterations = int(input())
 
-    sum = number_1 - number_2
+    while counter != iterations:
+        status = False
 
-    print("  ", 
-          number_1, 
-          "\n", 
-          "-",
-          number_2, 
-          "\n", 
-          "-----")
-    
-    val = input("Enter your answer: ")
-    val = int(val)    
+        number_1 = random.randint(10, 99)
+        number_2 = random.randint(10, 99)
 
-    while (status == False):
+        sum = number_1 - number_2
 
-        if val == sum:
-            print("Correct")
-            print()
-            status = True
-        if val != sum:
-            print("Try again\n")
-            print("  ", 
-                number_1, 
-                "\n", 
-                "+",
-                number_2, 
-                "\n", 
-                "-----")
-            
-            val = input("Enter your answer: ")
-            val = int(val)  
+        print("  ", 
+            number_1, 
+            "\n", 
+            "-",
+            number_2, 
+            "\n", 
+            "-----")
+        
+        val = input("Enter your answer: ")
+        val = int(val)    
+
+        while (status == False):
+
+            if val == sum:
+                print("Correct")
+                print()
+                status = True
+            if val != sum:
+                print("Try again\n")
+                print("  ", 
+                    number_1, 
+                    "\n", 
+                    "+",
+                    number_2, 
+                    "\n", 
+                    "-----")
+                
+                val = input("Enter your answer: ")
+                val = int(val) 
+
+        counter += 1 
 
     return
-
 
 def three_digit_subtraction():
 
-    status = False
+    counter = 0
+    print("How many practice problems would you like?")
+    iterations = int(input())
 
-    number_1 = random.randint(100, 999)
-    number_2 = random.randint(100, 999)
+    while counter != iterations:
 
-    sum = number_1 - number_2
+        status = False
 
-    print("  ", 
-          number_1, 
-          "\n", 
-          "-",
-          number_2, 
-          "\n", 
-          "-----")
-    
-    val = input("Enter your answer: ")
-    val = int(val)    
+        number_1 = random.randint(100, 999)
+        number_2 = random.randint(100, 999)
 
-    while (status == False):
+        sum = number_1 - number_2
 
-        if val == sum:
-            print("Correct")
-            print()
-            status = True
-        if val != sum:
-            print("Try again\n")
-            print("  ", 
-                number_1, 
-                "\n", 
-                "+",
-                number_2, 
-                "\n", 
-                "-----")
-            
-            val = input("Enter your answer: ")
-            val = int(val)  
+        print("  ", 
+            number_1, 
+            "\n", 
+            "-",
+            number_2, 
+            "\n", 
+            "-----")
+        
+        val = input("Enter your answer: ")
+        val = int(val)    
+
+        while (status == False):
+
+            if val == sum:
+                print("Correct")
+                print()
+                status = True
+            if val != sum:
+                print("Try again\n")
+                print("  ", 
+                    number_1, 
+                    "\n", 
+                    "+",
+                    number_2, 
+                    "\n", 
+                    "-----")
+                
+                val = input("Enter your answer: ")
+                val = int(val)  
+
+        counter += 1
 
     return
-
 
 def number_generator(base, length):
 
@@ -174,8 +202,6 @@ def number_generator(base, length):
     return number
 
 def menu():
-
-    counter = 0
 
     print("\nWelcome to the mental math trainer.")
     print("What would you like to do?\n")
@@ -187,13 +213,8 @@ def menu():
     print()
 
     if selection == 1:
-        print("How many practice problems would you like?")
-        iterations = int(input())
-        print()
+        two_digit_addition()
 
-        while counter != iterations:
-            counter += 1
-            two_digit_addition()
     if selection == 2:
         print("How many practice problems would you like?")
         iterations = int(input())
