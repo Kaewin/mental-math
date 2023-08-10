@@ -120,6 +120,10 @@ def two_digit_subtraction():
         number_1 = random.randint(10, 99)
         number_2 = random.randint(10, 99)
 
+        while number_1 < number_2:
+            number_1 = random.randint(10, 99)
+            number_2 = random.randint(10, 99)
+
         sum = number_1 - number_2
 
         print("  ", 
@@ -171,6 +175,10 @@ def three_digit_subtraction():
 
         number_1 = random.randint(100, 999)
         number_2 = random.randint(100, 999)
+
+        while number_1 < number_2:
+            number_1 = random.randint(10, 99)
+            number_2 = random.randint(10, 99)
 
         sum = number_1 - number_2
 
