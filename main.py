@@ -212,30 +212,34 @@ def number_generator(base, length):
 
 def menu():
 
-    print("\nWelcome to the mental math trainer.")
-    print("What would you like to do?\n")
+    selection = 0
 
-    print("1 Two-Digit Addition\n2 Three-Digit Addition\n3 Two-Digit Subtraction\n4 Three-Digit Subtraction\n")
+    while selection != 5
 
-    selection = input("Input your selection: ")
-    selection = int(selection)
-    print()
+        print("\nWelcome to the mental math trainer.")
+        print("What would you like to do?\n")
 
-    if selection == 1:
-    
-        two_digit_addition()
+        print("1 Two-Digit Addition\n2 Three-Digit Addition\n3 Two-Digit Subtraction\n4 Three-Digit Subtraction\n5 Exit Program\n")
 
-    if selection == 2:
+        selection = input("Input your selection: ")
+        selection = int(selection)
+        print()
 
-        three_digit_addition() 
+        if selection == 1:
+        
+            two_digit_addition()
 
-    if selection == 3:
+        if selection == 2:
 
-        two_digit_subtraction() 
+            three_digit_addition() 
 
-    if selection == 4:
+        if selection == 3:
 
-        three_digit_subtraction() 
+            two_digit_subtraction() 
+
+        if selection == 4:
+
+            three_digit_subtraction() 
 
 def main():
 
