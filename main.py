@@ -1,5 +1,6 @@
 import random
 
+
 def two_digit_addition():
 
     counter = 1
@@ -50,6 +51,7 @@ def two_digit_addition():
         counter += 1
 
     return
+
 
 def three_digit_addition():
 
@@ -102,6 +104,7 @@ def three_digit_addition():
 
     return
 
+
 def two_digit_subtraction():
 
     counter = 1
@@ -152,6 +155,7 @@ def two_digit_subtraction():
         counter += 1 
 
     return
+
 
 def three_digit_subtraction():
 
@@ -204,11 +208,13 @@ def three_digit_subtraction():
 
     return
 
+
 def number_generator(base, length):
 
     number = random.randint(base, length)
 
     return number
+
 
 def menu():
 
@@ -241,11 +247,14 @@ def menu():
 
             three_digit_subtraction() 
 
+
 def main():
 
     menu()
     
     return
 
+
 if __name__ == "__main__":
+
     main()
