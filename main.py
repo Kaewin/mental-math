@@ -173,8 +173,7 @@ def number_generator(base, length):
 
     return number
 
-
-def main():
+def menu():
 
     counter = 0
 
@@ -219,6 +218,10 @@ def main():
         while counter != iterations:
             counter += 1
             three_digit_subtraction() 
+
+def main():
+
+
 
 
 if __name__ == "__main__":
