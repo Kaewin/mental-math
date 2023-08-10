@@ -4,7 +4,7 @@ def two_digit_addition():
 
     counter = 1
     print("How many practice problems would you like?")
-    iterations = int(input())
+    iterations = int(input()) + 1
 
     while counter != iterations:
 
@@ -55,7 +55,7 @@ def three_digit_addition():
 
     counter = 1
     print("How many practice problems would you like?")
-    iterations = int(input())
+    iterations = int(input()) + 1
 
     while counter != iterations:
     
@@ -106,7 +106,7 @@ def two_digit_subtraction():
 
     counter = 1
     print("How many practice problems would you like?")
-    iterations = int(input())
+    iterations = int(input()) + 1
 
     while counter != iterations:
     
@@ -157,7 +157,7 @@ def three_digit_subtraction():
 
     counter = 1
     print("How many practice problems would you like?")
-    iterations = int(input())
+    iterations = int(input()) + 1
 
     while counter != iterations:
     
